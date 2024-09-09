@@ -1,0 +1,7 @@
+{
+    "batch": 0,
+    "g_weight": null,
+    "d_weight": null,
+    "Generator": [],
+    "Discriminator": []
+}

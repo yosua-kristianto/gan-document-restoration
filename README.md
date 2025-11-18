@@ -4,4 +4,39 @@ Abstract— The optical character recognition (OCR) plays a pivotal role in digi
 
 ## Technical Requirements
 
-The whole implementation of this research is run in Google Colaboratory utilizing NVIDIA A100 GPU. 
+There are two different ways to run this code:
+
+### 1. Through Google Collab Environment
+
+There are three different Jupyter Notebooks that can be run within Google Colaboratory environment. 
+Each notebook represent model building phases. The whole research utilize NVIDIA A100 GPU.
+
+
+### 2. Through Python Direct (main.py)
+
+1. Create a python Virtual Environment
+
+> `python -m venv .venv`
+
+2. Activate the virtual environment
+
+> Linux
+> 
+> `source /.venv/bin/activate`
+
+> Windows
+> 
+> `/.venv/Scripts/activate`
+
+3. Install all required dependencies
+
+`pip install -r requirements.txt`
+
+4. Create `.env` file 
+
+The environment variable file used to store credential and secrets value. See `.env.example` file for references. 
+Put the `.env` file in the root of project. 
+
+5. Running the code from root
+
+`python src/main.py`

@@ -2,3 +2,6 @@
 /.venv
 /.conda
 
+.env
+
+*.npz
